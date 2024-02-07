@@ -10,7 +10,7 @@
 /*--------BUZZERR control pin--------*/
 #define BUZ_PORT GPIOB
 #define BUZ_PIN GPIO_Pin_10
-#define BUZ PEout(10) 
+#define BUZ PBout(10) 
 /*----------------------------------*/
 
 void Buzzer_Init(void);  
