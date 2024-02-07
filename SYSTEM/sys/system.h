@@ -17,6 +17,10 @@
 #include "delay.h"
 #include "led.h"
 
+//Rmb to add these header files (like the led.h above)
+#include "oled.h"
+#include "show.h"
+#include "buzzer.h"
 
 void systemInit(void);
 
