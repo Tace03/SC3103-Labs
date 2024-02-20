@@ -12,5 +12,6 @@ void systemInit(void)
 	LED_Init(); 
 	Buzzer_Init();
 	OLED_Init();
-	          
+	Play_Button_Init();
+	uart3_Init(115200);
 }

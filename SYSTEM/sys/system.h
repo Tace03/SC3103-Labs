@@ -21,6 +21,8 @@
 #include "oled.h"
 #include "show.h"
 #include "buzzer.h"
+#include "play_button.h"
+#include "uart.h"
 
 void systemInit(void);
 
